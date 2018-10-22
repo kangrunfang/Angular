@@ -1,0 +1,25 @@
+<div class="passage">
+  <ul>
+    <li *ngFor="let passage of passages;">
+      <a [routerLink]="['/shequ',passage.id]">
+        <div id="th">
+          <span class="block" id="detail1">
+            <img src="{{passage.images1}}" id="photo1" alt=""/>
+          </span>
+          <span class="block" id="detail2">
+            <img src="{{passage.images2}}" id="photo2" alt=""/>
+          </span>
+          <span class="block" id="detail3">
+            <h3>{{passage.passageName}}</h3>
+            <p>{{passage.passageDetail}}</p>
+          </span>
+        </div>
+        <div>
+        <span>{{passage.person}}</span>
+        <span>{{passage.date}}</span>
+        </div>
+    </a>
+    </li>
+  </ul>
+
+</div>

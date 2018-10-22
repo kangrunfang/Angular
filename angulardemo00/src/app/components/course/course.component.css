@@ -1,0 +1,9 @@
+.box{
+    width:1200px;
+    margin:0 auto;
+}
+.box li{
+    width: 297px;
+    float: left;
+    margin-right: 3px;
+}

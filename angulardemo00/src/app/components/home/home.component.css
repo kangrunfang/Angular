@@ -1,0 +1,30 @@
+.container{
+    width:200px;
+    margin:0 auto;
+}
+p{
+    margin-left:25px;
+    margin-top:20px;
+}
+.star{
+    float:left;
+    width:60px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.list{
+    margin-top:50px;
+}
+div{
+    float:left;
+}
+li{
+    float:left;
+    margin-left:80px;
+}
+textarea{
+    width:400px;
+    height:150px;
+    padding:150px;
+    font-size:20px;
+}
