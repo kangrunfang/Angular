@@ -136,8 +136,7 @@ const passages=[
     "雪梨教育","2018-9-21  16:36")
 ]
 
-
-
+app.use('/',express.static('angulardemo00'));
 
 app.get('/api/courses2', function (req, res) {
     res.json(courses2);
